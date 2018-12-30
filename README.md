@@ -13,7 +13,7 @@ given authKey, ID, and Phone respectively.
 
 Repackage the app through the dev console with npm run-script build.: This will reassemble the application
 configured for your account and ready for use.
-=====================================================================================
+------------------------------------------------------------------------------------------------
 
 Technologies Used:
 
