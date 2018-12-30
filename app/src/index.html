@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>MyRemind | Remind yourself in advance.</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="text">
+    <h1>MyRemind</h1>
+    <h2>Enter your Phone number and message to send your reminder!</h2>
+  </div>
+  <!-- All of the Node.js APIs are available in this renderer process. -->
+  <div class="input">
+    <p>Phone Number:</p>
+    <input type="text" id="phone" placeholder="111222333">
+    <br>
+    <br>
+    <p>Message:</p>
+    <textarea name="message" id="message" cols="25" rows="5" placeholder="Finish server architecture by 12:00...."></textarea>
+    <br>
+    <br>
+    <button id="send">Send</button>
+
+
+  </div>
+
+
+
+  <script>
+    // You can also require other files to run in this process
+    require('./js/renderer.js')
+    require('./js/index.js')
+  </script>
+</body>
+
+</html>

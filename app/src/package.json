@@ -1,0 +1,23 @@
+{
+  "name": "myremind",
+  "version": "1.0.0",
+  "description": "Reminder App with Twilio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . MyRemind --out=dist/win --platform=win32 --arch=x64 --icon ./assets/img/Icon.Ico --asar=true --overwrite"
+  },
+  "keywords": [
+    "App",
+    "Template",
+    "quick",
+    "start"
+  ],
+  "author": "Trent Hardy",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "electron-packager": "^13.0.1"
+  },
+  "dependencies": {}
+}
