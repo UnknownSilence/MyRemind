@@ -2,8 +2,7 @@
 
 Reminder Messaging App made in Javascript for Windows Desktops using the Electron 
 Library and the SMS services of the Twilio API, found at: https://www.twilio.com/
-
-================================================================================
+------------------------------------------------------------------------------------------------
 
 This project uses a Trial version of the Twilio API and as such, cannot be used without
 a registered API Key, Token, and Phone.
@@ -22,6 +21,6 @@ https://www.twilio.com/
 https://electronjs.org/
 
 https://www.npmjs.com/package/electron-packager
---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 
